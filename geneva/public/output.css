@@ -611,15 +611,6 @@ html {
   position: relative;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -659,8 +650,28 @@ html {
   margin-left: 0px;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .inline-block {
   display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -729,6 +740,16 @@ html {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-x-0 {
+  -webkit-column-gap: 0px;
+          column-gap: 0px;
+}
+
+.gap-x-9 {
+  -webkit-column-gap: 2.25rem;
+          column-gap: 2.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -824,6 +845,11 @@ html {
   font-size: 18px;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -837,16 +863,6 @@ html {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-semibold {

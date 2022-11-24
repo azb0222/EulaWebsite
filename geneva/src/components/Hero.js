@@ -1,5 +1,5 @@
 import React from 'react';
-import GenevaRegister from "./GenevaRegister.png";
+import GenevaRegister from "../assets/GenevaRegister.png";
 const Hero = props => {
   return (
     <div>

@@ -21,9 +21,12 @@ export const App = () => (
     // </div>
     <div> 
       <Navbar />
-      <Hero />
+      <div className = "h-70">
+
+      </div>
+      {/* <Hero />
       <DeveloperHero />
-      <ServiceBox />
+      <ServiceBox /> */}
     </div>
    
 ); 

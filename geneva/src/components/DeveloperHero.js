@@ -1,5 +1,5 @@
 import React from 'react';
-import dashboard from "./DeveloperDashboard.png";
+import dashboard from "../assets/DeveloperDashboard.png";
 
 const DeveloperHero = props => {
   return (

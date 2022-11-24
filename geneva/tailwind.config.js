@@ -13,7 +13,7 @@ module.exports = {
         serviceBoxBackground: "#F9F9F9"
       },
       fontFamily: {
-        avenir: ["Avenir", "sans-serif"],
+        avenir: ["Avenir Next", "sans-serif"],
       },
     },
     screens: {
