@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         genevaPurple: "#515ADB", 
         genevaGrey: "#D8D8D8", 
+        serviceBoxBackground: "#F9F9F9"
       },
       fontFamily: {
         avenir: ["Avenir", "sans-serif"],

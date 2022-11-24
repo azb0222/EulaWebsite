@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Service = props => {
+const AboutUs = props => {
   return (
     <div>
-      Service
+      AboutUs
     </div>
   );
 };
 
-export default Service;
+export default AboutUs;

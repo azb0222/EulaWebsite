@@ -8,8 +8,8 @@ import { useState } from 'react'
 //move this to constants.js 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Developers', href: '#' },
-  { name: 'About Us', href: '#' },
+  { name: 'Developers', href: './pages/Developers.js' },
+  { name: 'About Us', href: './pages/AboutUs.js' },
   { name: 'Blog', href: '#' },
 ]
 

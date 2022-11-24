@@ -90,3 +90,42 @@ export const socialMedia = [
 
 export const clients = [
 ];
+
+export const services = [
+  {
+    id: "personalization1",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+  {
+    id: "personalization2",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+  {
+    id: "personalization3",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+  {
+    id: "personalization4",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+  {
+    id: "personalization5",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+  {
+    id: "personalization6",
+    icon: 'json.png',
+    title: "Personalization APIs" ,
+    description: "insert some bullshit here lol lol",
+  },
+]
