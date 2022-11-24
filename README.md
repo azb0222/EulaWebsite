@@ -13,6 +13,7 @@
 - create Docker container 
 - rename shit 
 - move common styles to styles.js 
+- host the appwrite 
 
 
 # Tech Stack: 
