@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles'
-import { Navbar, Hero, Footer } from './components'; 
+import { Navbar, Hero, Footer, Service } from './components'; 
 
 export const App = () => (
     // <div>
@@ -22,6 +22,8 @@ export const App = () => (
     <div> 
       <Navbar />
       <Hero />
+      <Footer />
+      <Service />
     </div>
    
 ); 

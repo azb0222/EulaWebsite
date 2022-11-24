@@ -14,9 +14,7 @@ const navigation = [
 ]
 
 const Navbar = props => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   return (
     <div class="flex z-0">
       <svg class="z-0 relative w-full inset-x-0 top-0" viewBox="0 0 303 88">
@@ -25,7 +23,7 @@ const Navbar = props => {
         </g>
       </svg>
 
-      <div class= "container mx-auto p-6 z-10 absolute">
+      <div class="container mx-auto p-6 z-10 absolute">
         <div class="flex items-center justify-between">
           <div class="flex pt-2 relative container space-x-2 mx-auto">
             <img src={logo} class="w-8 h-8" />
@@ -40,18 +38,29 @@ const Navbar = props => {
             ))}
           </div>
 
-        </div>
-
-        <div className=" lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a
-            href="#"
-            className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-          >
-            Log in
-          </a>
+          <Menu as="div" className="inline-block lg:flex lg:min-w-0 lg:flex-1 lg:justify-end z-10">
+            <Menu.Button className="text-xl bg-genevaPurple text-white px-5 py-2 rounded-lg font-bold divide-y">
+              Menu
+            </Menu.Button>
+            <Menu.Items>
+              {navigation.map((item) => (
+                <Menu.Item>
+                  {({ active }) => (
+                    <button
+                      className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'} group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                    >
+                      {item.name}
+                    </button>
+                  )}
+                </Menu.Item>
+              ))}
+            </Menu.Items>
+          </Menu>
         </div>
       </div>
     </div>
+
+
 
   );
 };
