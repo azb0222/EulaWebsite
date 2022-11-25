@@ -14,6 +14,7 @@
 - rename shit 
 - move common styles to styles.js 
 - host the appwrite 
+- some html components use className and class
 
 
 # Tech Stack: 
