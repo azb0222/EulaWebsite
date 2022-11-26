@@ -1,35 +1,43 @@
 import React from 'react'
 import styles from './styles'
-import { Navbar, Hero, Footer, Service, ServiceBox, DeveloperHero } from './components'; 
+import { Navbar, Hero, Footer, Service, ServiceBox, DeveloperHero, Email } from './components';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 export const App = () => (
-    // <div>
-    //   <div className = {`${styles.paddingX} ${styles.flexCenter}`}> 
-    //     <h1 className = {`$${styles.heading2}`}> hello hello </h1>
-        
-    //     <Navbar />
-    //   </div>
+  // <div>
+  //   <div className = {`${styles.paddingX} ${styles.flexCenter}`}> 
+  //     <h1 className = {`$${styles.heading2}`}> hello hello </h1>
 
-    //   <div className = {`${styles.flexStart}`}> 
-    //     <div className = {`${styles.boxWidth}`}>
+  //     <Navbar />
+  //   </div>
 
-    //     <Hero />
+  //   <div className = {`${styles.flexStart}`}> 
+  //     <div className = {`${styles.boxWidth}`}>
 
-    //     </div>
-    //   </div>
+  //     <Hero />
 
-    // </div>
-    <div> 
-      <Navbar />
-      <div className = "h-70">
+  //     </div>
+  //   </div>
 
-      </div>
-      {/* <Hero />
-      <DeveloperHero />
-      <ServiceBox /> */}
+  // </div>
+  <div>
+    <Navbar />
+    <div className="h-70">
     </div>
-   
-); 
+    <Hero />
+
+    <BrowserRouter>
+      <Routes>
+      <Route path = "/developers">
+          <DeveloperHero />
+          <ServiceBox />
+        </Route>
+      </Routes>
+        
+    </BrowserRouter>
+  </div>
+
+);
 
 
 export default App
