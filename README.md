@@ -15,6 +15,7 @@
 - move common styles to styles.js 
 - host the appwrite 
 - some html components use className and class
+it's just a fucking mess rn 
 
 
 # Tech Stack: 
