@@ -12,7 +12,8 @@ module.exports = {
         genevaGrey: "#D8D8D8", 
         serviceBoxBackground: "#F9F9F9", 
         emailBoxBackground: "#F6F6F6", 
-        submitButtonBackground: "#BCBFEB"
+        submitButtonBackground: "#BCBFEB", 
+        menuBackground: "#757bd9"
       },
       fontFamily: {
         avenir: ["Avenir Next", "sans-serif"],
