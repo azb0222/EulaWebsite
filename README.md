@@ -18,6 +18,7 @@
 it's just a fucking mess rn 
 finish setting up the backend 
 - the images need to be hd or wtv @Vidushi can you plz render new ones with the exact dimensions i have rn for them but they are hd 
+- create the phone screen animation and insert the gif in place so its like swiping on the phone 
 
 
 # Tech Stack: 
