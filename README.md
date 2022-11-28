@@ -16,6 +16,8 @@
 - host the appwrite 
 - some html components use className and class
 it's just a fucking mess rn 
+finish setting up the backend 
+- the images need to be hd or wtv @Vidushi can you plz render new ones with the exact dimensions i have rn for them but they are hd 
 
 
 # Tech Stack: 
