@@ -13,7 +13,7 @@
 - create Docker container 
 - rename shit 
 - move common styles to styles.js 
-- host the appwrite 
+- Finish Firebase backend 
 - some html components use className and class
 it's just a fucking mess rn 
 finish setting up the backend 
